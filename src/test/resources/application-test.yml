@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:service_requests_test;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+app:
+  jwt:
+    secret: test-only-secret-with-more-than-thirty-two-bytes-0123456789
+    expiration-minutes: 30
+  bootstrap-admin:
+    name: Test Admin
+    email: admin@test.dev
+    password: Admin@12345
