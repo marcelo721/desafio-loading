@@ -303,6 +303,5 @@ Para um ambiente real:
 
 ## Uso de inteligência artificial
 
-> Ajuste esta seção para refletir exatamente como você usou as ferramentas.
 
-Este projeto foi desenvolvido com apoio do Claude (Anthropic), usado para propor a arquitetura, gerar a primeira versão do código e dos testes e redigir esta documentação. O código foi revisado, executado e validado pelo autor, que consegue explicar as decisões de projeto, a regra de transição de status, o fluxo de autenticação e a organização em camadas descritos acima.
+Este projeto foi desenvolvido com apoio do Claude (Anthropic), usado para propor a arquitetura, gerar a primeira versão do código e dos testes e redigir esta documentação. O código foi revisado, executado e validado por mim, que consegue explicar as decisões de projeto, a regra de transição de status, o fluxo de autenticação e a organização em camadas descritos acima.
