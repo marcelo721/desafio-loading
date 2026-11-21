@@ -1,13 +1,18 @@
 package br.ufc.loading.requests.application.usecase;
 
-import com.marcelo721.desfio_loading_full__stack.application.model.*;
-import com.marcelo721.desfio_loading_full__stack.application.port.out.ServiceRequestRepositoryPort;
-import com.marcelo721.desfio_loading_full__stack.application.usecase.SearchServiceRequestsService;
-import com.marcelo721.desfio_loading_full__stack.domain.enums.Priority;
-import com.marcelo721.desfio_loading_full__stack.domain.enums.RequestStatus;
-import com.marcelo721.desfio_loading_full__stack.domain.enums.Role;
-import com.marcelo721.desfio_loading_full__stack.domain.exceptions.DomainValidationException;
-import com.marcelo721.desfio_loading_full__stack.domain.model.ServiceRequest;
+import br.ufc.loading.requests.application.model.AuthenticatedActor;
+import br.ufc.loading.requests.application.model.PageQuery;
+import br.ufc.loading.requests.application.model.PageResult;
+import br.ufc.loading.requests.application.model.RequestSearchCriteria;
+import br.ufc.loading.requests.application.model.RequestSortField;
+import br.ufc.loading.requests.application.model.SearchServiceRequestsQuery;
+import br.ufc.loading.requests.application.model.SortDirection;
+import br.ufc.loading.requests.application.port.out.ServiceRequestRepositoryPort;
+import br.ufc.loading.requests.domain.enums.Priority;
+import br.ufc.loading.requests.domain.enums.RequestStatus;
+import br.ufc.loading.requests.domain.enums.Role;
+import br.ufc.loading.requests.domain.exception.DomainValidationException;
+import br.ufc.loading.requests.domain.model.ServiceRequest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

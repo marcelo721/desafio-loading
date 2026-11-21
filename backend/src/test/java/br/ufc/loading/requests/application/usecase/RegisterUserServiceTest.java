@@ -1,16 +1,13 @@
 package br.ufc.loading.requests.application.usecase;
 
-
-import com.marcelo721.desfio_loading_full__stack.application.command.RegisterUserCommand;
-import com.marcelo721.desfio_loading_full__stack.application.port.out.AuditLogPort;
-import com.marcelo721.desfio_loading_full__stack.application.port.out.PasswordHasherPort;
-import com.marcelo721.desfio_loading_full__stack.application.port.out.UserRepositoryPort;
-import com.marcelo721.desfio_loading_full__stack.application.usecase.AuditTrail;
-import com.marcelo721.desfio_loading_full__stack.application.usecase.RegisterUserService;
-import com.marcelo721.desfio_loading_full__stack.domain.enums.Role;
-import com.marcelo721.desfio_loading_full__stack.domain.exceptions.DomainValidationException;
-import com.marcelo721.desfio_loading_full__stack.domain.exceptions.EmailAlreadyRegisteredException;
-import com.marcelo721.desfio_loading_full__stack.domain.model.User;
+import br.ufc.loading.requests.application.command.RegisterUserCommand;
+import br.ufc.loading.requests.application.port.out.AuditLogPort;
+import br.ufc.loading.requests.application.port.out.PasswordHasherPort;
+import br.ufc.loading.requests.application.port.out.UserRepositoryPort;
+import br.ufc.loading.requests.domain.enums.Role;
+import br.ufc.loading.requests.domain.exception.DomainValidationException;
+import br.ufc.loading.requests.domain.exception.EmailAlreadyRegisteredException;
+import br.ufc.loading.requests.domain.model.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
