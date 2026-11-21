@@ -302,6 +302,4 @@ Para um ambiente real:
 - **Prioridade e status como inteiros no banco**, na ordem do enum, para que a ordenação por prioridade seja a esperada (baixa, média, alta).
 
 ## Uso de inteligência artificial
-
-
-Este projeto foi desenvolvido com apoio do Claude (Anthropic), usado para propor a arquitetura, gerar a primeira versão do código e dos testes e redigir esta documentação. O código foi revisado, executado e validado por mim, que consegue explicar as decisões de projeto, a regra de transição de status, o fluxo de autenticação e a organização em camadas descritos acima.
+Este projeto foi desenvolvido com o auxílio do Claude (Anthropic), utilizado como ferramenta de apoio na implementação de componentes e páginas (*components* e *pages*) do frontend, além de auxiliar na elaboração do README e na organização da documentação do projeto. Todo o código foi revisado, integrado, executado e validado por mim.
