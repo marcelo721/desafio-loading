@@ -78,7 +78,7 @@ Requisitos: Docker e Docker Compose.
 
 ```bash
 git clone <url-do-repositorio>
-cd loading-challenge
+cd desafio-loading
 docker compose up --build
 ```
 
